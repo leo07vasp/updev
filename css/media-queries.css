@@ -1,0 +1,76 @@
+/*media queries*/
+
+@media only screen and (max-width: 980px) {
+
+	body{
+		width: 100%;
+		padding:0px;
+		/*background: #00FFFF;*/
+	}
+
+	header{
+		padding: 0;
+		width: 100%;
+	}
+
+	.topmenuandlogo{
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 650px) {
+
+body{
+	/*background: #33CCFF;*/
+}
+
+header{
+	width: 100%;
+}
+
+.topmenuandlogo #menu {
+
+}
+
+.topmenuandlogo{
+	width: 100%;
+}
+
+.topmenuandlogo #menu li{
+	display: block;
+	margin-right: 5px;
+}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+body{
+	/*background: green;*/
+}
+
+html {
+		-webkit-text-size-adjust: none;
+}
+
+header{
+	width: 100%;
+}
+
+.topmenuandlogo{
+	width: 100%;
+}
+
+.topmenuandlogo #menu{
+
+}
+
+
+.topmenuandlogo #menu li{
+	display: block;
+	margin-right: 5px;
+}
+
+}
