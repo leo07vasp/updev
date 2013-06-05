@@ -74,9 +74,15 @@ font-size: 12px;
 
 
 .tab{}
-.tab .links{}
-.tab .links li{background: #000}
-.tab .links li a{text-decoration: none; color: #FFF;}
+.tab .links{  display: inline-block; margin: 0 auto;}
+.tab .links li{background: #000;  padding: 5px; float: left; width: 150px;}
+.tab .links li a{text-decoration: none; color: #FFF; font-size: 7em;}
+.tab .links li.item1{background: #01646c;}
+.tab .links li.item2{background: #097b84;}
+.tab .links li.item3{background: #118f99;}
+.tab .links li.item4{background: #1da0aa;}
+.tab .links li.item5{background: #29b7c2;}
+.tab .links li.item6{background: #3ccad5;}
 
 
 header{
