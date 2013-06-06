@@ -10,8 +10,15 @@ jQuery('.carousel').cycle({
 });
 
 
-jQuery('.openMenu').on("click", function(){
 
+jQuery('.tab .links li').on("click", "a", function(){
+	var select = jQuery(this).attr("href");
+	jQuery(".tab .container > div:visible").slideUp("slow", function(){
+			jQuery(".tab .container").find(select).slideDown("slow");
+	});
+
+	return false;
 });
+
 
 });

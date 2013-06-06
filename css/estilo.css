@@ -45,7 +45,7 @@ overflow-x:hidden;
 
 
 .content{
-	max-width: 980px;
+	max-width: 1075px;
 	display:block;
 	margin:15px auto;
 	text-align: center;
@@ -74,16 +74,49 @@ font-size: 12px;
 
 
 .tab{}
-.tab .links{  display: inline-block; margin: 0 auto;}
-.tab .links li{background: #000;  padding: 5px; float: left; width: 150px;}
-.tab .links li a{text-decoration: none; color: #FFF; font-size: 7em;}
-.tab .links li.item1{background: #01646c;}
-.tab .links li.item2{background: #097b84;}
-.tab .links li.item3{background: #118f99;}
-.tab .links li.item4{background: #1da0aa;}
-.tab .links li.item5{background: #29b7c2;}
-.tab .links li.item6{background: #3ccad5;}
 
+.tab .links{
+	display: inline-block;
+	margin: 0 auto;
+}
+.tab .links li{
+	background: #000;
+	 padding: 3px;
+	float: left;
+	  width: 10.82em;
+}
+.tab .links li a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 7em;
+}
+.tab .links li.item1{
+	background: #01646c;
+}
+.tab .links li.item2{
+	background: #097b84;
+}
+.tab .links li.item3{
+	background: #118f99;
+}
+.tab .links li.item4{
+	background: #1da0aa;
+}
+.tab .links li.item5{
+	background: #29b7c2;
+}
+.tab .links li.item6{
+	background: #3ccad5;
+}
+
+.tab .container{display:block; width: 100%; min-height: 300px; color: #FFF; margin-top: -5px; }
+
+.tab .container #item-1{display: block; background: #01646c; padding: 10px 0;}
+.tab .container #item-2{display: none; background: #097b84; padding: 10px 0;}
+.tab .container #item-3{display: none; background: #118f99; padding: 10px 0;}
+.tab .container #item-4{display: none; background: #1da0aa; padding: 10px 0;}
+.tab .container #item-5{display: none; background: #29b7c2; padding: 10px 0;}
+.tab .container #item-6{display: none; background: #3ccad5; padding: 10px 0;}
 
 header{
 	margin-bottom: 40px;
