@@ -109,14 +109,66 @@ font-size: 12px;
 	background: #3ccad5;
 }
 
-.tab .container{display:block; width: 100%; min-height: 300px; color: #FFF; margin-top: -5px; }
+.tab .container{
+	display:block;
+	width: 100%;
+	min-height: 300px;
+	color: #FFF;
+	margin-top: -5px;
+}
 
-.tab .container #item-1{display: block; background: #01646c; padding: 10px 0;}
-.tab .container #item-2{display: none; background: #097b84; padding: 10px 0;}
-.tab .container #item-3{display: none; background: #118f99; padding: 10px 0;}
-.tab .container #item-4{display: none; background: #1da0aa; padding: 10px 0;}
-.tab .container #item-5{display: none; background: #29b7c2; padding: 10px 0;}
-.tab .container #item-6{display: none; background: #3ccad5; padding: 10px 0;}
+.tab .container #item-1{
+	display: block;
+	background: #01646c;
+	padding: 10px 0;
+}
+.tab .container #item-2{
+	display: none;
+	background: #097b84;
+	padding: 10px 0;
+}
+.tab .container #item-3{
+	display: none;
+	background: #118f99;
+	padding: 10px 0;
+}
+.tab .container #item-4{
+	display: none;
+	background: #1da0aa;
+	padding: 10px 0;
+}
+.tab .container #item-5{
+	display: none;
+	background: #29b7c2;
+	padding: 10px 0;
+}
+.tab .container #item-6{
+	display: none;
+	background: #3ccad5;
+	padding: 10px 0;
+}
+
+
+.project {
+	
+}
+.project .percent{
+	float: left;
+	width: 60%;
+	text-align: center;
+	font-size: 75px;
+	color: #49d7b0;
+}
+.project .percent span{
+	font-size: 145px;
+}
+.project .resize{
+	float: right;
+	width: 40%;
+	background: #49d7b0;
+	color: #FFF;
+	font-size: 17em;
+}
 
 header{
 	margin-bottom: 40px;
